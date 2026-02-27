@@ -80,7 +80,7 @@ Para ejecutar este proyecto en tu equipo, sigue los siguientes pasos:
 
 1. Clona el repositorio:
 
-git clone [<URL_DEL_REPOSITORIO>](https://github.com/KarenGarciaR/composite-view-demo.git)
+git clone (https://github.com/KarenGarciaR/composite-view-demo.git)
 
 2. Ingresa a la carpeta del proyecto:
 
