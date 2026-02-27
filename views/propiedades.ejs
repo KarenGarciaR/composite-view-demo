@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<div class="container">
+    <%- include('partials/sidebar') %>
+
+    <div class="content">
+        <h2>Propiedades Registradas</h2>
+
+        <% propiedades.forEach(prop => { %>
+            <div class="card">
+                <h3><%= prop.nombre %></h3>
+                <p><strong>Ubicación:</strong> <%= prop.ubicacion %></p>
+                <p><strong>Precio:</strong> <%= prop.precio %></p>
+                <a href="#" class="btn">Ver Detalles</a>
+            </div>
+        <% }) %>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
